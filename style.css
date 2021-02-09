@@ -1,0 +1,211 @@
+html {
+    color: #fff;
+    font-size: 15px;
+}
+
+body {
+    color: #fff;
+
+    margin: 0;
+
+
+    font-size: 1rem;
+    line-height: 1.6;
+   
+   
+}
+
+*,
+*:before,
+*:after {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+
+.page {
+    width: 100%;
+    max-width: 1900px;
+    height: 100vh;
+    min-height:700;
+
+
+    position: relative;
+    overflow: cover;
+
+   
+    
+    
+    background:  url("img/fon.jpg") no-repeat;
+    
+    background-size: cover;
+    
+    
+   
+
+   
+}
+
+
+/* Header
+=============*/
+
+header {
+    padding-top: 27px;
+    padding-left: 360px;
+    
+   
+   
+    align-items: center;
+}
+
+.header-logo a {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    
+    text-decoration: none;
+    text-align: center; 
+    color: #fff;  
+
+    transition: linear 0.9s;
+}
+
+.header-logo1:hover {
+     color: blue;
+}
+
+/* Nav
+=============*/
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+
+.header-nav-link {
+    margin-right: 50px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    color: #fff;
+    text-decoration: none;
+    transition: linear 0.9s;
+}
+
+.header-nav-link:hover {
+color: blue;
+}
+/* Content
+================*/
+
+ 
+
+
+.content-title {
+        padding-top: 250px;
+        padding-left: 360px;    
+
+        font-family: Inter, sans-serif;
+        font-weight: 700;
+        font-size: 58px;
+
+        line-height: 0px;
+        
+}
+
+.content-text {
+      padding-top: 35px;
+      padding-left: 360px;
+      font-size: 20px;
+      opacity: 0.9;
+
+}
+
+.content-text:hover {
+    color:  black;
+}
+
+.content-text1 {
+    color: rgb(228, 226, 226);
+    text-decoration: none;
+
+    transition: linear 0.5s;
+    
+}
+
+.content-text1:hover {
+    color: orange;
+}
+
+
+/*form
+===========*/
+  
+.container { 
+    display:flex;
+    
+    width: 1200px;
+    height: 200px;
+    margin: 97px 355px;
+    background-color: rgba(255, 255, 255, 0.267);
+
+}
+
+
+
+.input {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    top:5%;
+    margin: 50px;
+
+    padding: 10px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.input-btn {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    margin: 50px;
+
+    padding: 7px 50px;
+    
+
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    transition:  0.3s;
+}
+
+.input-btn:hover {
+    background-color: grey;
+}
+
+
+
+
+
+
+
+
+
